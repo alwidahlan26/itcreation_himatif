@@ -1,0 +1,107 @@
+
+/* Navbar */
+#body-nav {
+    box-shadow: 2px 1px 2px rgba(80, 80, 80, 0.8);
+    background-color: #0081a7;
+}
+
+.btn-header {
+    background-color: #0081a7;
+}
+
+.btn-header:hover {
+    background-color: #eb3b60;
+}
+
+.text-header {
+    position: relative;
+    top: 120px;
+}
+
+.img-header {
+    position: static;
+    bottom: 120px;
+    right: 50px;
+}
+/* Penutup navbar */
+
+#body-header, #body-foto, #footer, #text-judul {
+    background-color: #faf9f9;
+}
+
+#body-foto {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#text-judul {
+    padding-top: 24px;
+}
+
+#text-agenda {
+    padding-top: 24px;
+}
+
+#body-judul, #body-judul-dua {
+    padding-bottom: 28px;
+}
+
+.nav-list {
+    position: relative;
+    right: 30px;
+}
+
+.agenda {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.agenda-info {
+    margin-top: 24px;
+}
+
+.our-foto {
+    text-decoration: underline;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.box-foto {
+    margin-top: 24px;
+}
+
+.link-nav {
+    word-spacing: 20px;
+}
+
+.logo-brand {
+    margin-left: 60px;
+}
+
+.link-navbar {
+    margin-right: 24px;
+}
+
+.btn-agenda {
+    background-color: #0081a7;
+}
+
+.btn-agenda:hover {
+    background-color: #eb3b60;
+}
+
+.text-header h1 {
+    font-size: 52px;
+}
+
+.text-header h6 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+#footer {
+    background-color: #0081a7;
+}
+
+
+
