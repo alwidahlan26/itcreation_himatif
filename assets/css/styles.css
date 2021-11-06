@@ -1,107 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
+* {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
 /* Navbar */
 #body-nav {
-    box-shadow: 2px 1px 2px rgba(80, 80, 80, 0.8);
-    background-color: #0081a7;
+  box-shadow: 2px 1px 2px rgba(80, 80, 80, 0.8);
+  background-color: #0081a7;
+  height: 50px;
+}
+
+.navbar-logo a {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 12px;
+}
+.navbar-logo a span {
+  color: rgb(0, 255, 255);
+}
+
+
+
+.nav-item a {
+  position: relative;
+  font-size: 1.2rem;
+  margin-right: 3px;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+.nav-item a:hover {
+  background: white;
+  transition: 0.3s;
+  color: #0081a7;
 }
 
 .btn-header {
-    background-color: #0081a7;
+  background-color: #3b3b3b;
 }
 
 .btn-header:hover {
-    background-color: #eb3b60;
+  background-color: #eb3b60;
 }
 
 .text-header {
-    position: relative;
-    top: 120px;
+  position: relative;
+  top: 120px;
 }
 
 .img-header {
-    position: static;
-    bottom: 120px;
-    right: 50px;
+  position: static;
+  bottom: 120px;
+  right: 50px;
 }
 /* Penutup navbar */
 
-#body-header, #body-foto, #footer, #text-judul {
-    background-color: #faf9f9;
+/* Header */
+#body-header {
+  font-family: "Roboto";
+  background: rgb(0, 129, 167);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 129, 167, 1) 0%,
+    rgba(0, 136, 174, 1) 10%,
+    rgba(0, 146, 185, 1) 18%,
+    rgba(0, 167, 208, 1) 46%,
+    rgba(0, 183, 225, 1) 66%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
-#body-foto {
-    padding-bottom: 50px;
-    padding-top: 50px;
+#body-header .container h1 {
+  letter-spacing: 10px;
+  font-weight: 700;
+  font-size: 58px;
 }
 
-#text-judul {
-    padding-top: 24px;
-}
-
-#text-agenda {
-    padding-top: 24px;
-}
-
-#body-judul, #body-judul-dua {
-    padding-bottom: 28px;
-}
-
-.nav-list {
-    position: relative;
-    right: 30px;
-}
-
-.agenda {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.agenda-info {
-    margin-top: 24px;
-}
-
-.our-foto {
-    text-decoration: underline;
-    margin-top: 24px;
-    text-align: center;
-}
-
-.box-foto {
-    margin-top: 24px;
-}
-
-.link-nav {
-    word-spacing: 20px;
-}
-
-.logo-brand {
-    margin-left: 60px;
-}
-
-.link-navbar {
-    margin-right: 24px;
-}
-
-.btn-agenda {
-    background-color: #0081a7;
-}
-
-.btn-agenda:hover {
-    background-color: #eb3b60;
-}
-
-.text-header h1 {
-    font-size: 52px;
+#body-header .image-header img {
+    height: 500px;
+    width: 670px;
 }
 
 .text-header h6 {
-    font-size: 28px;
-    margin-bottom: 24px;
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+/* Penutup Header */
+
+/* Agenda */
+.text-agenda h2 {
+  font-size: 2.5rem;
+  font-family: 'Roboto';
+  padding-top: 55px;
+  text-align: center;
+  text-decoration: underline;
+
 }
 
-#footer {
-    background-color: #0081a7;
+.agenda-page {
+    min-height: 105vh;
 }
 
 
+.agenda-info {
+  margin-top: 10px;
+}
 
+.btn-agenda {
+  background-color: #0081a7;
+}
+
+.btn-agenda:hover {
+  background-color: #eb3b60;
+}
+/* Penutup Agenda */
+
+
+/* Foto */
+#foto {
+  min-height: 10vh;
+  padding-top: 60px;
+}
+
+.text-judul {
+  padding-bottom: 10px;
+}
+
+.text-judul h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.box-foto {
+  margin-top: 20px;
+}
+/* Penutup Foto */
+
+/* Form */
+#about {
+  min-height: 90vh;
+}
+
+form h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+form .registration a {
+  text-decoration: none;
+}
