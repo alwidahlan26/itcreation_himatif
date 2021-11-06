@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>Himatif</title>
+    <link rel="shortcut icon" type="image" href="assets/img/logoTitle.png" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/Footer.css" />
     <link rel="stylesheet" href="assets/css/Registration.css" />
@@ -15,7 +16,17 @@
 
   <body>
     <!-- Navbar -->
-    <nav id="body-nav" class="navbar navbar-expand-lg navbar-light">
+    <nav
+      id="body-nav"
+      class="
+        navbar navbar-expand-lg navbar-light
+        fixed-top
+        shadow
+        p-3
+        mb-5
+        rounded
+      "
+    >
       <button
         class="navbar-toggler"
         type="button"
@@ -27,35 +38,29 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand text-white" href="#">HIMATIF</a>
+      <div class="navbar-logo">
+        <a class="navbar-brand text-white ml-5" href="#"
+          ><h2>HIMA<span>TI</span>F</h2></a>
+      </div>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 link-navbar">
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="#body-header"
-              >Home <span class="sr-only">(current)</span></a
-            >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="ml-4" href="#body-header">
+               Home
+               <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#text-agenda">Agenda</a>
+            <a href="#agenda-page">Agenda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#text-judul">Gallery</a>
+            <a href="#foto">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#about">About Us</a>
+            <a href="#about">About Us</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
-            Search
-          </button>
         </form>
       </div>
     </nav>
@@ -63,7 +68,7 @@
 
     <!-- Header -->
     <div id="body-header">
-      <div class="container">
+      <div class="container d-flex justify-content-center">
         <div class="row">
           <div class="col-md-6 text-header">
             <h1>HIMATIF</h1>
@@ -73,79 +78,86 @@
               <br />
               Siman - Ponorogo - Jawa Timur Indonesia
             </p>
-            <a href="about/index.html" class="btn btn-header text-white"
+            <a href="#agenda-page" class="btn btn-header text-white"
               >Telusuri</a
             >
           </div>
-          <div class="col-md-6 img-header">
+          <div class="col-md-6 image-header">
             <img src="assets/img/header.png" />
           </div>
         </div>
       </div>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#0081a7"
+        fill-opacity="1"
+        d="M0,96L16,85.3C32,75,64,53,96,58.7C128,64,160,96,192,112C224,128,256,128,288,154.7C320,181,352,235,384,234.7C416,235,448,181,480,176C512,171,544,213,576,208C608,203,640,149,672,154.7C704,160,736,224,768,245.3C800,267,832,245,864,240C896,235,928,245,960,224C992,203,1024,149,1056,149.3C1088,149,1120,203,1152,192C1184,181,1216,107,1248,101.3C1280,96,1312,160,1344,186.7C1376,213,1408,203,1424,197.3L1440,192L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
+      ></path>
+    </svg>
     <!-- Penutup header -->
 
     <!-- Tulisan pertama -->
-    <div id="text-agenda">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 agenda">
-            <h2>Our Agenda</h2>
+    <div id="agenda-page">
+      <div class="text-agenda">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 agenda mb-3">
+              <h2>Our Agenda</h2>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Tulisan penutup -->
+      <!-- Tulisan penutup -->
 
-    <!-- agenda -->
-    <div id="body-judul">
-      <div class="container">
-        <div class="row agenda-info">
-          <div class="col-md-6">
-            <h2>
-              Pelantikan Pengurus Baru
-              <br />
-              HIMATIF Periode 2021/2022
-            </h2>
-            <p>
-              Program studi Teknik informatika telah melaksanakan acara
-              pergantian <br />pengurus himpunan mahasiswa Teknik Informatika
-              atau HIMATIF
-            </p>
-            <p>Admin | 16 Agustus 2021 | No Coment</p>
-            <a href="pelantikan/index.html" class="btn btn-agenda text-white"
-              >Telusuri</a
-            >
-          </div>
-          <div class="col-md-6 img-agenda">
-            <img src="assets/img/gambar4.jpg" />
+      <!-- agenda -->
+      <div id="body-judul">
+        <div class="container">
+          <div class="row agenda-info">
+            <div class="col-md-6">
+              <h2>
+                Pelantikan Pengurus Baru
+                <br />
+                HIMATIF Periode 2021/2022
+              </h2>
+              <p>
+                Program studi Teknik informatika telah melaksanakan acara
+                pergantian <br />pengurus himpunan mahasiswa Teknik Informatika
+                atau HIMATIF
+              </p>
+              <p>Admin | 16 Agustus 2021 | No Coment</p>
+              <a href="pelantikan/index.html" class="btn btn-agenda text-white"
+                >Telusuri</a
+              >
+            </div>
+            <div class="col-md-6 img-agenda">
+              <img src="assets/img/gambar4.jpg" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="body-judul-dua">
-      <div class="container">
-        <div class="row agenda-info">
-          <div class="col-md-6 img-agenda">
-            <img src="assets/img/gambar6.jpg" />
-          </div>
-          <div class="col-md-6">
-            <h2>
-              Musyawarah Kerja
-              <br />
-              HIMATIF Periode 2021/2022
-            </h2>
-            <p>
-              “Besarkanlah Organisasi, dan Jangan Besar Karena Organisasi”,
-              <br />
-              Organisasi merupakan sebuah ladang pembelajaran untuk menyalurkan
-              asprirasi
-            </p>
-            <p>Admin | 02 Oktober 2021 | No Coment</p>
-            <a href="pelantikan/index.html" class="btn btn-agenda text-white"
-              >Telusuri</a
-            >
+      <div id="body-judul-dua">
+        <div class="container">
+          <div class="row agenda-info">
+            <div class="col-md-6 img-agenda">
+              <img src="assets/img/gambar6.jpg" />
+            </div>
+            <div class="col-md-6">
+              <h2>
+                Musyawarah Kerja
+                <br />
+                HIMATIF Periode 2021/2022
+              </h2>
+              <p>
+                “Besarkanlah Organisasi, dan Jangan Besar Karena Organisasi”,
+                <br />
+                Organisasi merupakan sebuah ladang pembelajaran untuk
+                menyalurkan asprirasi
+              </p>
+              <p>Admin | 02 Oktober 2021 | No Coment</p>
+              <a href="pelantikan/index.html" class="btn btn-agenda text-white">Telusuri</a>
+            </div>
           </div>
         </div>
       </div>
@@ -153,40 +165,41 @@
     <!-- Penutup agenda -->
 
     <!-- Judul foto -->
-    <div id="text-judul">
-      <div class="container our-foto">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Our Gallery</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Penutup judul foto -->
-
-    <!-- Foto -->
-    <div id="body-foto">
-      <div>
-        <div class="container box-foto">
-          <div class="row">
-            <div class="col-md-4"><img src="assets/img/gambar1.jpg" /></div>
-            <div class="col-md-4"><img src="assets/img/gambar2.jpg" /></div>
-            <div class="col-md-4"><img src="assets/img/gambar3.jpg" /></div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div>
+    <div id="foto">
+      <div class="text-judul">
         <div class="container">
           <div class="row">
-            <div class="col-md-4"><img src="assets/img/gambar4.jpg" /></div>
-            <div class="col-md-4"><img src="assets/img/gambar5.jpg" /></div>
-            <div class="col-md-4"><img src="assets/img/gambar6.jpg" /></div>
+            <div class="col-md-12">
+              <h2>Our Gallery</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Penutup judul foto -->
+
+      <!-- Foto -->
+      <div class="body-foto">
+        <div>
+          <div class="container box-foto">
+            <div class="row">
+              <div class="col-md-4"><img src="assets/img/gambar1.jpg" /></div>
+              <div class="col-md-4"><img src="assets/img/gambar2.jpg" /></div>
+              <div class="col-md-4"><img src="assets/img/gambar3.jpg" /></div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4"><img src="assets/img/gambar4.jpg" /></div>
+              <div class="col-md-4"><img src="assets/img/gambar5.jpg" /></div>
+              <div class="col-md-4"><img src="assets/img/gambar6.jpg" /></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Penutup Foto -->
 
     <!-- Form -->
@@ -194,7 +207,7 @@
       <div class="form-container">
         <div class="image-holder"></div>
         <form method="post">
-          <h2 class="text-center"><strong>Masuk</strong> Akun</h2>
+          <h2 class="text-center">LOGIN</h2>
           <div class="form-group">
             <input
               class="form-control"
@@ -216,9 +229,11 @@
               Silahkan Masuk
             </button>
           </div>
-          <a class="already" href="#"
-            >You already have an account? Login here.</a
-          >
+          <div class="registration">
+            <p class="already" href="#">
+              You haven't an account? <a href="">Signup here</a>.
+            </p>
+          </div>
         </form>
       </div>
     </div>
@@ -259,6 +274,8 @@
       <p>©2021 HIMATIF UNIDA | All Rights Reserved</p>
     </footer>
     <!-- Penutup Footer -->
+
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
